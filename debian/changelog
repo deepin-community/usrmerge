@@ -1,3 +1,10 @@
+usrmerge (35+deepin) unstable; urgency=medium
+
+  * Conflicts with glibc << 2.35-deepin2.
+    This change is caused by the wrong versioning of glibc in beige.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 23 Aug 2023 13:47:44 +0800
+
 usrmerge (35) unstable; urgency=medium
 
   * Partially revert and further change the fix for #1024596, because it
