@@ -1,3 +1,10 @@
+usrmerge (39+nmu2deepin1) unstable; urgency=medium
+
+  [ hudeng ]
+  * chore: Cancel clean biarch dirs for obs init buildsystem
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 11 Feb 2025 15:12:36 +0800
+
 usrmerge (39+nmu2) unstable; urgency=high
 
   * Non-maintainer upload.
