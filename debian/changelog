@@ -1,3 +1,9 @@
+usrmerge (38+deepin1) unstable; urgency=medium
+
+  * chore: Cancel clean biarch dirs for obs init buildsystem
+
+ -- hdueng <hudeng@deepin.org>  Sat, 09 Dec 2023 13:38:59 +0800
+
 usrmerge (38) unstable; urgency=medium
 
   * Remove support for the /etc/unsupported-skip-usrmerge-conversion flag
