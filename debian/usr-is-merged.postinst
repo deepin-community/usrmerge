@@ -21,7 +21,7 @@ cleanup_biarch_dirs() {
 
 case "$1" in
     configure)
-    cleanup_biarch_dirs
+    #cleanup_biarch_dirs
     ;;
 esac
 
