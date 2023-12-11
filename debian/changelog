@@ -1,4 +1,10 @@
-usrmerge (38+deepin1) unstable; urgency=medium
+usrmerge (38+deepin2) unstable; urgency=medium
+
+  * fix: usr-is-merged postinst error by cancel remove biarch dirs
+
+ -- hudeng <hudeng@deepin.org>  Mon, 11 Dec 2023 11:10:47 +0800
+
+usrmerge (37+deepin1) unstable; urgency=medium
 
   * chore: Cancel clean biarch dirs for obs init buildsystem
 
