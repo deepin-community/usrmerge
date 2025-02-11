@@ -1,8 +1,25 @@
-usrmerge (38+deepin1) unstable; urgency=medium
+usrmerge (39+nmu2) unstable; urgency=high
 
-  * chore: Cancel clean biarch dirs for obs init buildsystem
+  * Non-maintainer upload.
+  * No-change source-only upload to build on buildds.
 
- -- hdueng <hudeng@deepin.org>  Sat, 09 Dec 2023 13:38:59 +0800
+ -- Helmut Grohne <helmut@subdivi.de>  Sun, 29 Dec 2024 18:31:18 +0100
+
+usrmerge (39+nmu1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Reupload to unstable, since critical tools like debootstrap were
+    never given a chance to deal with the removal. (See: #1091649)
+  * Override empty-binary-package to get through ftp-master's lintian.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 29 Dec 2024 13:19:24 +0100
+
+usrmerge (39) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Support working with cp already moved to /usr/bin/. (Closes: #1060002)
+
+ -- Marco d'Itri <md@linux.it>  Sat, 20 Jan 2024 21:35:46 +0100
 
 usrmerge (38) unstable; urgency=medium
 
