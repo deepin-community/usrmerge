@@ -1,3 +1,9 @@
+usrmerge (39+nmu2deepin2) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 18:13:16 +0800
+
 usrmerge (39+nmu2deepin1) unstable; urgency=medium
 
   [ hudeng ]
